@@ -1,11 +1,5 @@
 import keyboard
-words = {
-    "space" : " ",
-    "alt" : "",
-    "shift": "",
-    "enter" : "\n",
-    "backspace" : " "
-}
+
 
 def translate(text):
     layout = dict(zip(map(ord, '''qwertyuiop[]asdfghjkl;'zxcvbnm,./`QWERTYUIOP{}ASDFGHJKL:"ZXCVBNM<>?~'''),
