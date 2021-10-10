@@ -3,7 +3,13 @@ _specal_words = {
     "enter" : "\n",
     "decimal" : ".",
 
-    "delete" : "",
+    "delete" : " [DEL]",
+    "backspace": " [BACK]",
+    "right": " {RIGHT}",
+    "left": " {LEFT}",
+    "up": " {UP}",
+    "down": " {DOWN}",
+
     "insert" : "",
     "home" : "",
     "end": "",
@@ -11,7 +17,22 @@ _specal_words = {
     "page down" : "",
     "num lock" : "",
     "ctrl" : "",
-    "shift" : ""
+    "shift" : "",
+    "esc" : "",
+    "tab" : "",
+
+    "f1" : " (F1)",
+    "f2" : " (F2)",
+    "f3" : " (F3)",
+    "f4" : " (F4)",
+    "f5" : " (F5)",
+    "f6" : " (F6)",
+    "f7" : " (F7)",
+    "f8" : " (F8)",
+    "f9" : " (F9)",
+    "f10" : " (F10)",
+    "f11" : " (F11)",
+    "f12" : " (F12)",
 }
 
 
