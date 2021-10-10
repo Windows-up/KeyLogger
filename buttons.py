@@ -1,5 +1,4 @@
 import keyboard
-
 words = {
     "space" : " ",
     "alt" : "",

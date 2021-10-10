@@ -4,5 +4,6 @@ def translate(text):
 
     return text.translate(layout)
 
+
 text = "f,j,f"
 print(translate(text))
