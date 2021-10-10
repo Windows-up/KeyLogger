@@ -8,7 +8,7 @@ def print_pressed_keys(e):
     # print(e)
     if e.event_type == "down":
         print(e.name)
-        writeData(e.name + " ")
+        writeData(specal_buttons(e.name))
     # print(e.event_type)
 
 

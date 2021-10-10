@@ -1,4 +1,18 @@
-_specal_words = {}
+_specal_words = {
+    "space" : " ",
+    "enter" : "\n",
+    "decimal" : ".",
+
+    "delete" : "",
+    "insert" : "",
+    "home" : "",
+    "end": "",
+    "page up": "",
+    "page down" : "",
+    "num lock" : "",
+    "ctrl" : "",
+    "shift" : ""
+}
 
 
 def translate(text):
@@ -8,4 +22,7 @@ def translate(text):
     return text.translate(layout)
 
 def specal_buttons(btn):
-    pass
+    if btn in _specal_words:
+        btn = _specal_words[btn]
+
+    return btn
